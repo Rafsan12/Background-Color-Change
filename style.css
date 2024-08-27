@@ -1,24 +1,62 @@
+/* General body styling */
 body {
-  background-color: black;
+  background-color: #1a1a1a; /* Darker shade of black */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
+/* Styling for the title text */
 .text {
-  color: wheat;
+  color: #f5deb3; /* Wheat color */
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Styling for the input field */
 .input {
   width: 300px;
   height: 50px;
-  margin-left: 30rem;
-  border: 1px solid white;
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  padding: 0 15px;
+  font-size: 1.2rem;
+  color: #333; /* Dark text */
+  background-color: #f5deb3; /* Wheat background */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 }
 
+/* Base button styling */
 .button {
-  margin-top: 2rem;
   width: 300px;
   height: 50px;
-  margin-left: 30rem;
-  border: 1px solid white;
+  border: none;
+  border-radius: 25px; /* Rounded corners for buttons */
+  background-color: #333; /* Dark button background */
+  color: #f5deb3; /* Wheat text */
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #f5deb3; /* Wheat background on hover */
+  color: #333; /* Dark text on hover */
+}
+
+/* Centering content */
+.container {
+  text-align: center;
 }
